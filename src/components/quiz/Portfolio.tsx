@@ -7,7 +7,6 @@ import toast from "react-hot-toast";
 
 const Portfolio = () => {
   const fileName = useRecoilValue(fileState);
-  console.log("4381247: ", fileName);
 
   const handleClick = () => {
     if (!fileName) {
